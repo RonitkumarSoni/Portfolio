@@ -125,3 +125,8 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:45:20.404] Server  LOG      ✓ Compiled in 9.1s
 [00:48:43.022] Browser WARN    Image with src "/_next/static/media/homie-coffee.adcc0be6.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:10:11.283] Browser WARN    Image with src "/_next/static/media/homie-coffee.adcc0be6.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:10:17.325] Browser WARN    Unable to access iframe: {}
+[01:10:24.013] Browser WARN    Unable to access iframe: {}
+[01:10:35.175] Browser WARN    Unable to access iframe: {}

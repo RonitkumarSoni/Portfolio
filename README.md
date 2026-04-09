@@ -3,9 +3,9 @@
 
 Welcome to my personal portfolio repository. This project showcases my work, skills, and experience as a **Full-Stack Developer** specializing in the **MERN Stack** and **Next.js**.
 
-[![Introduction Video](https://img.youtube.com/vi/KPgjBvpN11c/0.jpg)](https://www.youtube.com/watch?v=KPgjBvpN11c)
+![Ronit Soni Portfolio Banner](public/assets/banner.png)
 
-> _Click the image above to watch my introduction._
+> _A premium, interactive portfolio showcasing full-stack expertise._
 
 ## 🚀 About The Project
 
@@ -79,9 +79,9 @@ portfoliov3/
 I am open to freelance opportunities and full-time roles. Feel free to reach out!
 
 *   **Email**: [ronitkumarsoni.cg@gmail.com](mailto:ronitkumarsoni.cg@gmail.com)
-*   **LinkedIn**: [linkedin.com/in/mahir-r-patel](https://linkedin.com/in/mahir-r-patel)
+*   **LinkedIn**: [linkedin.com/in/ronit-sonii](https://www.linkedin.com/in/ronit-sonii/)
 *   **GitHub**: [github.com/RonitkumarSoni](https://github.com/RonitkumarSoni)
-*   **Website**: [mahir-patel.tech](https://mahir-patel.tech)
+*   **Website**: [ronitkumarsoni.github.io](https://github.com/RonitkumarSoni)
 
 ---
 
