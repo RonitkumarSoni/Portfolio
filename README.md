@@ -3,7 +3,7 @@
 
 Welcome to my personal portfolio repository. This project showcases my work, skills, and experience as a **Full-Stack Developer** specializing in the **MERN Stack** and **Next.js**.
 
-![Ronit Soni Portfolio Banner](public/assets/banner.png)
+![Portfolio Preview Placeholder](https://placehold.co/1200x600?text=Portfolio+Preview)
 
 > _A premium, interactive portfolio showcasing full-stack expertise._
 
