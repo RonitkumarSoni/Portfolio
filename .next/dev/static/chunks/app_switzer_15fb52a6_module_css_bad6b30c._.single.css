@@ -35,10 +35,6 @@
   & :where(body[data-scrolled= "down"] & ) { @slot; }
 }
 
-@custom-variant scrolled-up {
-  & :where(body[data-scrolled= "up"] & ) { @slot; }
-}
-
 @font-face {
   font-family: switzer;
   src: url("../media/Switzer_Variable-s.p.bd58316e.woff2") format("woff2");

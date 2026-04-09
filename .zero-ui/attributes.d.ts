@@ -4,7 +4,7 @@ export declare const bodyAttributes: {
   "data-mobile-menu": string;
   "data-phase": "1" | "2" | "3" | "4" | "5";
   "data-reveal": "true";
-  "data-scrolled": "down" | "up";
+  "data-scrolled": "down";
 };
 
 export declare const variantKeyMap: {

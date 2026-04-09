@@ -1,5 +1,5 @@
 
-# Mahir Patel - Full-Stack Developer Portfolio
+# Ronit Soni - Full-Stack Developer Portfolio
 
 Welcome to my personal portfolio repository. This project showcases my work, skills, and experience as a **Full-Stack Developer** specializing in the **MERN Stack** and **Next.js**.
 
@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/mahirpatel2005/portfoliov3.git
+    git clone https://github.com/RonitkumarSoni/portfoliov3.git
     cd portfoliov3
     ```
 
@@ -78,11 +78,11 @@ portfoliov3/
 
 I am open to freelance opportunities and full-time roles. Feel free to reach out!
 
-*   **Email**: [mahir.patel.cg@gmail.com](mailto:mahir.patel.cg@gmail.com)
+*   **Email**: [ronitkumarsoni.cg@gmail.com](mailto:ronitkumarsoni.cg@gmail.com)
 *   **LinkedIn**: [linkedin.com/in/mahir-r-patel](https://linkedin.com/in/mahir-r-patel)
-*   **GitHub**: [github.com/mahirpatel2005](https://github.com/mahirpatel2005)
+*   **GitHub**: [github.com/RonitkumarSoni](https://github.com/RonitkumarSoni)
 *   **Website**: [mahir-patel.tech](https://mahir-patel.tech)
 
 ---
 
-© 2025 Mahir Patel. All rights reserved.
+© 2025 Ronit Soni. All rights reserved.

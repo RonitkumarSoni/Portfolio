@@ -368,82 +368,55 @@ __turbopack_context__.s([
     "externalLinks",
     ()=>externalLinks
 ]);
-const DOMAIN_URL = "https://mahir-patel.tech";
+const DOMAIN_URL = "https://github.com/RonitkumarSoni";
 const SITE_CONFIG = {
-    title: "Mahir Patel | Full-Stack Developer & MERN Specialist",
-    description: "Mahir Patel is a skilled Full-Stack Developer specializing in the MERN stack (MongoDB, Express, React, Node.js) and Next.js. Explore his portfolio of scalable web applications and software engineering projects.",
-    url: DOMAIN_URL ?? "https://mahir-patel.tech",
-    siteName: "Mahir Patel",
+    title: "Ronit Soni | Web Developer & MERN Specialist",
+    description: "Ronit Soni is a Web Developer specializing in the MERN stack, JavaScript, and Cybersecurity. Explore my portfolio of open source projects.",
+    url: DOMAIN_URL,
+    siteName: "Ronit Soni",
     keywords: [
-        "Mahir Patel",
-        "Mahir Rakesh Patel",
-        "Mahir Patel Portfolio",
-        "Mahir Patel Developer",
-        "Full-Stack Developer India",
-        "MERN Stack Specialist",
-        "Next.js Developer India",
-        "React.js Expert",
-        "Node.js Backend Developer",
-        "MongoDB Portfolio",
+        "Ronit Soni",
+        "RonitkumarSoni",
+        "Ronit Soni Portfolio",
+        "Ronit Soni Developer",
+        "Full-Stack Developer Gujarat",
+        "MERN Stack",
+        "JavaScript Developer",
+        "React.js Specialist",
+        "Cybersecurity Enthusiast",
+        "Open Source Contributor",
         "Software Engineer India",
-        "Freelance Web Developer India",
         "Frontend Engineer",
-        "Scalable Web Architecture",
-        "C++ Programmer",
-        "System Design Portfolio",
-        "APIHub Project",
-        "Numble Game Developer",
         "developer",
-        "freelancer",
         "portfolio",
-        "mahir patel",
-        "mahir rakesh patel",
-        "mahir r patel",
-        "mahir rakesh",
-        "mahir",
         "Backend Developer",
         "Full-Stack Developer",
-        "MERN Stack Developer",
-        "MERN Stack Specialist",
-        "MongoDB Developer",
-        "MongoDB Specialist",
-        "Express.js Developer",
-        "Express.js Specialist",
-        "Node.js Developer",
-        "Node.js Specialist",
-        "React.js Developer",
-        "React.js Specialist",
-        "Next.js Developer",
-        "Next.js Specialist",
-        "Web Developer",
-        "Web Designer",
-        "Software Engineer",
-        "Freelance Web Developer India"
+        "Web Developer"
     ],
-    ogImage: "/assets/bg-home-poster-optimized.webp",
-    ogImageAlt: "Mahir Patel - Full-Stack Developer Portfolio Hero Image",
-    logo: "/serbyte-logo.png",
+    ogImage: "https://avatars.githubusercontent.com/u/224968961?v=4",
+    ogImageAlt: "Ronit Soni - Web Developer Portfolio Image",
+    logo: "https://avatars.githubusercontent.com/u/224968961?v=4",
     authors: [
         {
-            name: "Mahir Patel",
+            name: "Ronit Soni",
             url: DOMAIN_URL
         }
     ],
-    creator: "Mahir Patel",
-    publisher: "Mahir Patel"
+    creator: "Ronit Soni",
+    publisher: "Ronit Soni"
 };
 const SITE_NAP = {
-    name: "Mahir Patel",
+    name: "Ronit Soni",
     googleBusinessType: "LocalBusiness",
-    contact: "Mahir Patel",
-    contactTitle: "Full-Stack Developer",
-    email: "mahir.patel.cg@gmail.com",
-    phone: "9558787386",
+    contact: "Ronit Soni",
+    contactTitle: "Web Developer",
+    email: "ronitkumarsoni.cg@gmail.com",
+    phone: "",
     formattedPhone: "",
     addressLink: "",
     street: "",
-    city: "",
-    state: "India",
+    city: "Kalol",
+    state: "Gujarat",
     zipCode: "",
     openingHours: [
         {
@@ -453,17 +426,17 @@ const SITE_NAP = {
     ],
     googleReviewLink: "",
     profiles: {
-        linkedIn: "https://linkedin.com/in/mahir-r-patel",
+        linkedIn: "",
         yelp: "",
         pinterest: "",
         gbp: "",
-        github: "https://github.com/mahirpatel2005",
-        leetcode: "https://leetcode.com/u/Mahir_R_Patell/"
+        github: "https://github.com/RonitkumarSoni",
+        leetcode: ""
     },
-    logo: "/serbyte-logo.png",
+    logo: "https://avatars.githubusercontent.com/u/224968961?v=4",
     favicon: "/favicon.ico",
     images: [
-        "/assets/bg-home-poster-optimized.webp"
+        "https://avatars.githubusercontent.com/u/224968961?v=4"
     ]
 };
 const SITE_SLUGS = {
@@ -550,7 +523,7 @@ const MobileMenu = ({ navItems })=>{
                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("mobile-menu-item transform pt-3 transition-all duration-300 ease-in-out"),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$Link$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Link"], {
                     href: "/resume.pdf",
-                    download: true,
+                    target: "_blank",
                     onClick: ()=>setMobileMenu("closed"),
                     className: "bubble-hover block rounded-full border border-orange-100 bg-gradient-to-br from-orange-50 to-amber-50 px-3 py-2 text-center font-semibold text-orange-600 shadow-lg duration-300 hover:shadow-orange-200/50",
                     children: "Resume"

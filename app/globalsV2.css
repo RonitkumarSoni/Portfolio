@@ -4,6 +4,14 @@
 
 @custom-variant reveal-false ([data-reveal="false"] &);
 
+/* Tailwind v4 explicitly bind dark variant to .dark class */
+@custom-variant dark (&:is(.dark *));
+
+html.dark {
+  background-color: #050505; /* Pitch black for that Deep Space feel, but soft #050505 avoids complete OLED smear */
+  color-scheme: dark;
+}
+
 @custom-variant touch {
   @media ((any-hover: none) and (any-pointer: coarse)) {
     @slot;
@@ -15,7 +23,37 @@
 } */
 
 html {
-  scroll-behavior: smooth;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  scroll-behavior: auto !important; /* Managed by Lenis */
+}
+
+/* Force GPU rendering for heavy interactive areas */
+#hero, #about, section {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
 }
 
 @theme inline {
@@ -135,11 +173,15 @@ html {
       border-radius: 100px;
       background-color: var(--color-gray-500);
     }
+    .dark .bounce>span {
+      background-color: var(--color-gray-300);
+    }
 
     .mobile-menu-container {
       pointer-events: none;
       max-height: 0;
       opacity: 0;
+      transform: translateY(-10px);
     }
   }
 
@@ -151,6 +193,9 @@ html {
         rotate: calc(45deg);
         border-radius: 100px;
         background-color: black;
+      }
+      .dark :first-child {
+        background-color: white;
       }
 
       :nth-child(2) {
@@ -164,26 +209,31 @@ html {
         border-radius: 100px;
         background-color: black;
       }
+      .dark :nth-child(3) {
+        background-color: white;
+      }
     }
 
     .mobile-menu-container {
       pointer-events: auto;
-      max-height: 300px;
+      max-height: 800px;
       opacity: 1;
-      padding-bottom: 1rem;
+      padding-bottom: 2rem;
+      transform: translateY(0);
     }
 
     .mobile-menu-item {
-      transform: translateX(0);
+      transform: translateX(0) scale(1);
       opacity: 1;
       /* Calculate delay based on index */
-      transition-delay: calc(var(--index) * 0.1s + 0.2s);
+      transition-delay: calc(var(--index) * 0.08s + 0.1s);
     }
   }
 
   .mobile-menu-item {
-    transform: translateX(-1.25rem);
+    transform: translateX(-1rem) scale(0.95);
     opacity: 0;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     transition-delay: 0s;
   }
 

@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/mahir/iCloud%20Drive%20%28Archive%29/Documents/portfolio/app/opengraph-image.jpg.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 1200, height: 642 }\n"],"names":[],"mappings":";;;;AAAA;;uCACe;IAAE,KAAA,8IAAG;IAAE,OAAO;IAAM,QAAQ;AAAI"}}]
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ADMIN/OneDrive/Desktop/profPort/portfoliov3/app/opengraph-image.jpg.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 1200, height: 642 }\n"],"names":[],"mappings":";;;;AAAA;;uCACe;IAAE,KAAA,8IAAG;IAAE,OAAO;IAAM,QAAQ;AAAI"}}]
 }

@@ -3,21 +3,35 @@
     "id": "[project]/app/ui/TiltedWrapper.tsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/_36503889._.js",
-      "static/chunks/app_ui_TiltedWrapper_tsx_962d04f6._.js"
+      "static/chunks/app_ui_TiltedWrapper_tsx_21919e4e._.js"
     ]
   },
   "[project]/app/components/SplashCursor.tsx [app-client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/app/components/SplashCursor.tsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/app_components_SplashCursor_tsx_d79ee0f2._.js",
-      "static/chunks/app_components_SplashCursor_tsx_962d04f6._.js"
+      "static/chunks/app_components_SplashCursor_tsx_21919e4e._.js"
     ]
   },
   "[project]/app/components/DotCursor.tsx [app-client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/app/components/DotCursor.tsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/_d650878f._.js",
-      "static/chunks/app_components_DotCursor_tsx_962d04f6._.js"
+      "static/chunks/app_components_DotCursor_tsx_21919e4e._.js"
+    ]
+  },
+  "[project]/app/components/ui/EdgeLightingOverlay.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/app/components/ui/EdgeLightingOverlay.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_f9bebff4._.js",
+      "static/chunks/app_components_ui_EdgeLightingOverlay_tsx_21919e4e._.js"
+    ]
+  },
+  "[project]/app/components/ui/AnimatedGridBackground.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/app/components/ui/AnimatedGridBackground.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_ed2ed9fd._.js",
+      "static/chunks/app_components_ui_AnimatedGridBackground_tsx_21919e4e._.js"
     ]
   }
 }

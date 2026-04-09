@@ -1,0 +1,5 @@
+Error reading c:/Users/ADMIN/OneDrive/Desktop/profPort/orignal_My_resume.pdf: pdf is not a function
+Error reading c:/Users/ADMIN/OneDrive/Desktop/profPort/genrative ai studio.pdf: pdf is not a function
+Error reading c:/Users/ADMIN/OneDrive/Desktop/profPort/github Copilot certificate.pdf: pdf is not a function
+Error reading c:/Users/ADMIN/OneDrive/Desktop/profPort/openPools_certificate.pdf: pdf is not a function
+Error reading c:/Users/ADMIN/OneDrive/Desktop/profPort/Data Analyasis.pdf: pdf is not a function

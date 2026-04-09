@@ -4,9 +4,9 @@ import { Metadata } from "next"
 import { SITE_SLUGS } from "@/config/siteConfig"
 
 export const metadata: Metadata = {
-  title: "Mahir Patel - Projects Bespoke Tint & PPF",
+  title: "Ronit Soni - Projects Bespoke Tint & PPF",
   description: "How I helped Bespoke Tint & PPF achieve 966% traffic growth and $1M+ revenue trajectory through SEO-focused web design and development.",
-  keywords: ["Mahir Patel", "Bespoke Projects", "Tint", "PPF", "React Zero-UI", "Next.js", "React", "TypeScript", "Serbyte", "Seattle"],
+  keywords: ["Ronit Soni", "Bespoke Projects", "Tint", "PPF", "React Zero-UI", "Next.js", "React", "TypeScript", "Serbyte", "Seattle"],
   alternates: {
     canonical: SITE_SLUGS.projectLinks.bespoke,
   },

@@ -12,6 +12,7 @@
   "/apple-icon.png/route": "app/apple-icon.png/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/icon.png/route": "app/icon.png/route.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
   "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
   "/opengraph-image.jpg/route": "app/opengraph-image.jpg/route.js",
   "/robots.txt/route": "app/robots.txt/route.js",

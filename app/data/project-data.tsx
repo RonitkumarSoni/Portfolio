@@ -450,7 +450,7 @@ export const apihub: ProjectData = {
       "I built APIHub to solve the fragmentation problem in API discovery. It's a centralized platform that aggregates public APIs, offering powerful search, categorization, and standardized documentation views. The goal was to reduce the time developers spend hunting for endpoints.",
     categories: ["React", "Next.js", "API Integration", "Platform"],
     link: "http://apihub-pi.vercel.app/",
-    githubLink: "https://github.com/MahirPatel2005/0412",
+    githubLink: "https://github.com/RonitPatel2005/0412",
   },
   slug: "apihub",
   beforeAfter: {
@@ -520,7 +520,7 @@ export const numble: ProjectData = {
       "Inspired by Wordle, Numble challenges players to guess a daily math equation. Built with React and TypeScript, it features complex state management for game logic, local storage for streaks, and a responsive design for mobile play.",
     categories: ["React", "Game Development", "Logic", "Web App"],
     link: "http://numble0412.netlify.app/",
-    githubLink: "https://github.com/MahirPatel2005/0412",
+    githubLink: "https://github.com/RonitPatel2005/0412",
   },
   slug: "numble",
   beforeAfter: {
@@ -577,7 +577,7 @@ export const slippyClone: ProjectData = {
       "A frontend engineering challenge to recreate the complex, fluid interactions of the 'Slippy' interface. This project demonstrates high-fidelity attention to detail, advanced CSS animations, and faithful component composition.",
     categories: ["UI Clone", "Frontend", "CSS Animations", "React"],
     link: "https://slippy1.netlify.app",
-    githubLink: "https://github.com/MahirPatel2005/slippy",
+    githubLink: "https://github.com/RonitPatel2005/slippy",
   },
   slug: "slippy-clone",
   beforeAfter: {
@@ -628,7 +628,7 @@ export const dayflow: ProjectData = {
       "A comprehensive HRMS dashboard for managing employee records, attendance, and payroll. Features a modern, intuitive UI built with React and a robust backend integration.",
     categories: ["React", "Dashboard", "Management System", "Enterprise"],
     link: "https://dayflow-final.netlify.app/",
-    githubLink: "https://github.com/MahirPatel2005/HRMS",
+    githubLink: "https://github.com/RonitPatel2005/HRMS",
   },
   slug: "hrms",
   beforeAfter: {

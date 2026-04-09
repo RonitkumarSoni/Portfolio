@@ -7,9 +7,9 @@ import { SITE_SLUGS } from "@/config/siteConfig"
 import { projectsGraph } from "@/config/schemas"
 
 export const metadata: Metadata = {
-  title: "Mahir Patel - Projects & Case Studies",
-  description: "Featured work by Mahir Patel: production Next.js + TypeScript systems, React Zero-UI, and selected client builds. Outcomes, scope, and links.",
-  keywords: ["Mahir Patel", "Projects", "Case Studies", "React Zero-UI", "Next.js", "React", "TypeScript", "India"],
+  title: "Ronit Soni - Projects & Case Studies",
+  description: "Featured work by Ronit Soni: production Next.js + TypeScript systems, React Zero-UI, and selected client builds. Outcomes, scope, and links.",
+  keywords: ["Ronit Soni", "Projects", "Case Studies", "React Zero-UI", "Next.js", "React", "TypeScript", "India"],
   alternates: {
     canonical: SITE_SLUGS.projects,
   },

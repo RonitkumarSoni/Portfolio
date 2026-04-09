@@ -4,19 +4,19 @@ import { debounce } from "../utils/debounce"
 import { useIsoMorphicEffect } from "./useIsoMorphicEffect"
 
 const initialOffsets: Record<string, Partial<HeroOffset>> = {
-  apihub: {
+  "ai-game-bot": {
     x: 459.296875,
     y: -748,
   },
-  numble: {
+  "homie-coffee": {
     x: 118.796875,
     y: -980.328125,
   },
-  "slippy-clone": {
+  rentease: {
     x: 118.796875,
     y: -748,
   },
-  hrms: {
+  "canva-clone": {
     x: 118.796875,
     y: -980.328125,
   },
@@ -30,7 +30,11 @@ export function useOffset(cardIds: string[]) {
       const next: Record<string, Partial<HeroOffset>> = {}
       for (const id of cardIds) {
         const grid = document.querySelector(`[data-grid-id="${id}"]`)
-        const hero = document.querySelector("[data-stack-target-id]")
+        const heroTargets = document.querySelectorAll("[data-stack-target-id]")
+        const hero = Array.from(heroTargets).find(el => {
+          const style = window.getComputedStyle(el)
+          return style.display !== "none" && style.visibility !== "hidden"
+        })
         if (!grid || !hero) continue
         const g = grid.getBoundingClientRect()
         const h = hero.getBoundingClientRect()

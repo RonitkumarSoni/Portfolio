@@ -12,6 +12,7 @@
   "/apple-icon.png/route": "/apple-icon.png",
   "/favicon.ico/route": "/favicon.ico",
   "/icon.png/route": "/icon.png",
+  "/icon.svg/route": "/icon.svg",
   "/manifest.webmanifest/route": "/manifest.webmanifest",
   "/opengraph-image.jpg/route": "/opengraph-image.jpg",
   "/robots.txt/route": "/robots.txt",

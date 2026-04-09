@@ -1,1 +1,127 @@
-[00:00:00.414] Server  LOG      ✓ Ready in 265ms
+[00:00:07.810] Server  LOG      ✓ Ready in 6.6s
+[00:00:32.041] Server  LOG      ○ Compiling /_not-found/page ...
+[00:04:57.825] Server  LOG      ✓ Compiled in 3.4s
+[00:05:19.954] Server  LOG      ○ Compiling / ...
+[00:05:31.770] Browser WARN    Image with src "/_next/static/media/homie-coffee.adcc0be6.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:44.024] Server  LOG      ○ Compiling /coding-profiles ...
+[00:09:02.079] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <SegmentViewNode type="page" pagePath="(site)/cod...">
+      <SegmentTrieNode>
+      <CodingProfilesPage>
+        <div className="pt-24 pb-16">
+          ...
+            <LeetCodeStats>
+              <motion.div initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.5}} ...>
+                <div className="flex flex-..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <div className="grid grid-...">
+                    <div className="lg:col-spa...">
+                      <div className="rounded-3x...">
+                        <div className="flex flex-...">
+                          <div className="flex items...">
+                            <div>
+                            <div className="flex flex-col">
+                              <h3>
+                              <span className="text-sm te...">
++                               5,000,000
+-                               50,00,000
+                          ...
+                      ...
+                    ...
+
+[00:11:29.008] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <SegmentViewNode type="page" pagePath="(site)/cod...">
+      <SegmentTrieNode>
+      <CodingProfilesPage>
+        <div className="pt-24 pb-16">
+          ...
+            <LeetCodeStats>
+              <motion.div initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.5}} ...>
+                <div className="flex flex-..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <div className="grid grid-...">
+                    <div className="lg:col-spa...">
+                      <div className="rounded-3x...">
+                        <div className="flex flex-...">
+                          <div className="flex items...">
+                            <div>
+                            <div className="flex flex-col">
+                              <h3>
+                              <span className="text-sm te...">
++                               5,000,000
+-                               50,00,000
+                          ...
+                      ...
+                    ...
+
+[00:13:47.611] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <SegmentViewNode type="page" pagePath="(site)/cod...">
+      <SegmentTrieNode>
+      <CodingProfilesPage>
+        <div className="pt-24 pb-16">
+          ...
+            <LeetCodeStats>
+              <motion.div initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.5}} ...>
+                <div className="flex flex-..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <div className="grid grid-...">
+                    <div className="lg:col-spa...">
+                      <div className="rounded-3x...">
+                        <div className="flex flex-...">
+                          <div className="flex items...">
+                            <div>
+                            <div className="flex flex-col">
+                              <h3>
+                              <span className="text-sm te...">
++                               5,000,000
+-                               50,00,000
+                          ...
+                      ...
+                    ...
+
+[00:15:04.190] Server  LOG      ✓ Compiled in 4.6s
+[00:23:55.292] Server  LOG      ✓ Compiled in 20.9s
+[00:24:01.821] Server  LOG      ✓ Compiled in 9.3s
+[00:28:18.347] Server  LOG      ○ Compiling /projects ...
+[00:37:05.836] Server  LOG      ✓ Compiled in 17.5s
+[00:38:28.897] Browser WARN    Image with src "/_next/static/media/homie-coffee.adcc0be6.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:41:40.112] Server  LOG      ✓ Compiled in 11.1s
+[00:42:10.694] Server  LOG      ✓ Compiled in 6.2s
+[00:45:20.404] Server  LOG      ✓ Compiled in 9.1s
+[00:48:43.022] Browser WARN    Image with src "/_next/static/media/homie-coffee.adcc0be6.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

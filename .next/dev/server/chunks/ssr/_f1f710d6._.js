@@ -170,161 +170,11 @@ const Icon = ({ name, ...rest })=>{
     }, ("TURBOPACK compile-time value", void 0));
 };
 }),
-"[project]/app/components/ui/CallToActionButton.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/app/components/ui/CallToActionButton.tsx [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "CallToActionButton",
-    ()=>CallToActionButton
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$images$2f$mahir$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$images$2f$mahir$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/app/images/mahir.jpeg.mjs { IMAGE => "[project]/app/images/mahir.jpeg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/clsx/dist/clsx.mjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$lazy$2d$ui$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/utils/lazy-ui.tsx [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$config$2f$siteConfig$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/config/siteConfig.ts [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Icon$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/Icon.tsx [app-ssr] (ecmascript)");
-;
-;
-;
-;
-;
-;
-;
-const CallToActionButton = ()=>{
-    const buttonVariants = {
-        initial: {
-            opacity: 0,
-            filter: `blur(5px)`,
-            scale: 0.8
-        },
-        animate: {
-            opacity: 1,
-            filter: "blur(0px)",
-            scale: 1,
-            transition: {
-                delay: 0.7
-            }
-        },
-        hover: {
-            boxShadow: "none",
-            y: 4,
-            transition: {
-                duration: 0.2
-            }
-        }
-    };
-    const youVariants = {
-        initial: {
-            opacity: 0,
-            x: -10,
-            width: 0
-        },
-        animate: {
-            opacity: 0,
-            x: -10,
-            width: 0
-        },
-        hover: {
-            opacity: 1,
-            x: 0,
-            width: 45,
-            transition: {
-                type: "spring",
-                stiffness: 300,
-                damping: 20,
-                opacity: {
-                    delay: 0.1
-                }
-            }
-        }
-    };
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-        href: __TURBOPACK__imported__module__$5b$project$5d2f$config$2f$siteConfig$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SITE_NAP"].profiles.github,
-        target: "_blank",
-        rel: "noopener",
-        "aria-label": "Mahir Patel's GitHub",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$lazy$2d$ui$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MotionButton"], {
-            initial: "initial",
-            animate: "animate",
-            whileHover: "hover",
-            variants: buttonVariants,
-            className: "group bubble-hover-cta active relative z-1 inline-flex w-max items-center gap-2 rounded-full bg-black px-3 py-2.5 text-base font-medium tracking-tight text-white shadow-xl shadow-black/20",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "pointer-events-none absolute inset-0.5 -z-1 rounded-full [background-image:url('/assets/framer-noise.png')] [background-size:164px] bg-repeat opacity-12"
-                }, void 0, false, {
-                    fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-                    lineNumber: 71,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative flex items-center gap-1",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-7 w-7 rounded-full",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$images$2f$mahir$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$images$2f$mahir$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                                alt: "Profile photo of the founder",
-                                fill: true,
-                                sizes: "50px",
-                                className: "rounded-full object-cover ring-2 ring-white/75"
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-                                lineNumber: 75,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0))
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-                            lineNumber: 74,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$lazy$2d$ui$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MotionDiv"], {
-                            variants: youVariants,
-                            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])("hidden items-center gap-1 md:flex"),
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-xl",
-                                    children: "+"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-                                    lineNumber: 80,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Icon$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Icon"], {
-                                    name: "github",
-                                    className: "flex h-7 w-7 items-center justify-center rounded-full bg-white text-sm font-semibold text-black ring-1 ring-black/50"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-                                    lineNumber: 81,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-                            lineNumber: 79,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-                    lineNumber: 72,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                "See My Github"
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-            lineNumber: 64,
-            columnNumber: 7
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
-        fileName: "[project]/app/components/ui/CallToActionButton.tsx",
-        lineNumber: 63,
-        columnNumber: 5
-    }, ("TURBOPACK compile-time value", void 0));
-} // === VARIANTS ===
-;
+const e = new Error("Could not parse module '[project]/app/components/ui/CallToActionButton.tsx'\n\nExpected '</', got 'jsx text (\r\n        See My Github\r\n      )'");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/app/components/ui/WhiteButtonLink.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -490,7 +340,7 @@ const HeroV2 = ()=>{
                                     lineNumber: 25,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                "India"
+                                "Kalol, Gujarat"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/HeroV2.tsx",
@@ -505,7 +355,7 @@ const HeroV2 = ()=>{
                                     offsetPx: 20,
                                     fadeDirection: "left",
                                     className: "inline-block",
-                                    children: "Mahir Patel"
+                                    children: "Ronit Soni"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/HeroV2.tsx",
                                     lineNumber: 30,
@@ -553,19 +403,19 @@ const HeroV2 = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                     className: "font-semibold text-slate-900",
-                                    children: "Full-stack Developer."
+                                    children: "Web Developer."
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/HeroV2.tsx",
                                     lineNumber: 41,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                " MERN Stack & Next.js Specialist. ",
+                                " MERN & JavaScript Specialist. ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/app/components/HeroV2.tsx",
                                     lineNumber: 41,
-                                    columnNumber: 126
+                                    columnNumber: 116
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                "Passionate about building scalable web applications and solving complex problems."
+                                "Exploring the language of 0s and 1s. Cybersecurity Enthusiast & Open Source Contributor."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/HeroV2.tsx",
@@ -605,7 +455,6 @@ const HeroV2 = ()=>{
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$WhiteButtonLink$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhiteButtonLink"], {
                                                 href: "/resume.pdf",
-                                                download: true,
                                                 className: "h-[48px] px-6 shadow-xl shadow-black/5 hover:shadow-none",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Icon$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Icon"], {
@@ -618,7 +467,7 @@ const HeroV2 = ()=>{
                                                         lineNumber: 63,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    "Download Resume"
+                                                    "View Resume"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/HeroV2.tsx",
@@ -1312,7 +1161,7 @@ function ProjectsGrid({ className }) {
                     type: "API Discovery Platform",
                     progress: progress,
                     href: "http://apihub-pi.vercel.app/",
-                    githubUrl: "https://github.com/MahirPatel2005/0412",
+                    githubUrl: "https://github.com/RonitPatel2005/0412",
                     title: "APIHub",
                     priority: true
                 }, "apihub", false, {
@@ -1329,7 +1178,7 @@ function ProjectsGrid({ className }) {
                     type: "Web Game (Number Guessing)",
                     progress: progress,
                     href: "http://numble0412.netlify.app/",
-                    githubUrl: "https://github.com/MahirPatel2005/0412",
+                    githubUrl: "https://github.com/RonitPatel2005/0412",
                     title: "Numble"
                 }, "numble", false, {
                     fileName: "[project]/app/components/ProjectsGrid.tsx",
@@ -1345,7 +1194,7 @@ function ProjectsGrid({ className }) {
                     type: "UI Clone / Frontend",
                     progress: progress,
                     href: "https://slippy1.netlify.app",
-                    githubUrl: "https://github.com/MahirPatel2005/slippy",
+                    githubUrl: "https://github.com/RonitPatel2005/slippy",
                     title: "Slippy Clone"
                 }, "slippy-clone", false, {
                     fileName: "[project]/app/components/ProjectsGrid.tsx",
@@ -1361,7 +1210,7 @@ function ProjectsGrid({ className }) {
                     type: "Dashboard / Management",
                     progress: progress,
                     href: "https://dayflow-final.netlify.app/",
-                    githubUrl: "https://github.com/MahirPatel2005/HRMS",
+                    githubUrl: "https://github.com/RonitPatel2005/HRMS",
                     title: "HRMS"
                 }, "hrms", false, {
                     fileName: "[project]/app/components/ProjectsGrid.tsx",

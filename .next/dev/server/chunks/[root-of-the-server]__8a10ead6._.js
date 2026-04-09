@@ -58,57 +58,57 @@ __turbopack_context__.s([
     "externalLinks",
     ()=>externalLinks
 ]);
-const DOMAIN_URL = "https://mahir-patel.tech";
+const DOMAIN_URL = "https://github.com/RonitkumarSoni";
 const SITE_CONFIG = {
-    title: "Mahir Patel - Full-Stack Developer Portfolio | MERN Stack",
-    description: "Portfolio of Mahir Patel, a full-stack developer specializing in the MERN stack (MongoDB, Express, React, Node.js), Next.js, and scaling web applications.",
-    url: DOMAIN_URL ?? "https://mahir-patel.tech",
-    siteName: "Mahir Patel",
+    title: "Ronit Soni | Full Stack Developer (MERN + AI)",
+    description: "Ronit Soni is a Full Stack Developer specializing in the MERN stack, React.js, and AI/LLM development. Explore my portfolio of web projects and open source work.",
+    url: DOMAIN_URL,
+    siteName: "Ronit Soni",
     keywords: [
-        "Mahir Patel",
-        "Full-Stack Developer",
-        "MERN Stack",
-        "Next.js",
-        "React",
-        "Node.js",
-        "MongoDB",
-        "JavaScript",
-        "India",
-        "Freelance Developer",
-        "Software Engineer",
-        "Web Development",
-        "UI/UX Design",
-        "Frontend Developer",
+        "Ronit Soni",
+        "RonitkumarSoni",
+        "Ronit Soni Portfolio",
+        "Ronit Soni Developer",
+        "Full-Stack Developer Gujarat",
+        "MERN Stack Developer",
+        "JavaScript Developer",
+        "React.js Specialist",
+        "Cybersecurity Enthusiast",
+        "Open Source Contributor",
+        "Software Engineer India",
+        "Frontend Engineer",
+        "developer",
+        "portfolio",
         "Backend Developer",
-        "React Developer India",
-        "Next.js Expert",
-        "Scalable Web Apps",
-        "C++",
-        "System Design"
+        "Full-Stack Developer",
+        "Web Developer",
+        "AI Developer",
+        "LLM"
     ],
-    ogImage: "/assets/bg-home-poster-optimized.webp",
-    logo: "/serbyte-logo.png",
+    ogImage: "https://avatars.githubusercontent.com/u/224968961?v=4",
+    ogImageAlt: "Ronit Soni - Full Stack Developer Portfolio",
+    logo: "https://avatars.githubusercontent.com/u/224968961?v=4",
     authors: [
         {
-            name: "Mahir Patel",
+            name: "Ronit Soni",
             url: DOMAIN_URL
         }
     ],
-    creator: "Mahir Patel",
-    publisher: "Mahir Patel"
+    creator: "Ronit Soni",
+    publisher: "Ronit Soni"
 };
 const SITE_NAP = {
-    name: "Mahir Patel",
+    name: "Ronit Soni",
     googleBusinessType: "LocalBusiness",
-    contact: "Mahir Patel",
-    contactTitle: "Full-Stack Developer",
-    email: "mahir.patel.cg@gmail.com",
-    phone: "9558787386",
+    contact: "Ronit Soni",
+    contactTitle: "Full Stack Developer",
+    email: "ronitkumarsoni.cg@gmail.com",
+    phone: "",
     formattedPhone: "",
     addressLink: "",
     street: "",
-    city: "",
-    state: "India",
+    city: "Kalol",
+    state: "Gujarat",
     zipCode: "",
     openingHours: [
         {
@@ -118,17 +118,17 @@ const SITE_NAP = {
     ],
     googleReviewLink: "",
     profiles: {
-        linkedIn: "https://linkedin.com/in/mahir-r-patel",
+        linkedIn: "https://www.linkedin.com/in/ronit-sonii/",
         yelp: "",
         pinterest: "",
         gbp: "",
-        github: "https://github.com/mahirpatel2005",
-        leetcode: "https://leetcode.com/u/Mahir_R_Patell/"
+        github: "https://github.com/RonitkumarSoni",
+        leetcode: "https://leetcode.com/u/ronitkumarsoni/"
     },
-    logo: "/serbyte-logo.png",
-    favicon: "/favicon.ico",
+    logo: "https://avatars.githubusercontent.com/u/224968961?v=4",
+    favicon: "/favicon.svg",
     images: [
-        "/assets/bg-home-poster-optimized.webp"
+        "https://avatars.githubusercontent.com/u/224968961?v=4"
     ]
 };
 const SITE_SLUGS = {
@@ -182,9 +182,14 @@ function manifest() {
         theme_color: "#fff",
         icons: [
             {
-                src: "/favicon.ico",
+                src: "/icon.png",
                 sizes: "any",
-                type: "image/x-icon"
+                type: "image/png"
+            },
+            {
+                src: "/apple-icon.png",
+                sizes: "any",
+                type: "image/png"
             }
         ]
     };

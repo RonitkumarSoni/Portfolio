@@ -65,7 +65,7 @@ export const RadialProgressRing: React.FC<RadialProgressRingProps> = ({ percenta
         }}
         className="absolute inset-0 flex flex-col items-center justify-center pb-8 text-center"
       >
-        <div className="mb-1 text-4xl font-semibold text-slate-800">
+        <div className="mb-1 text-4xl font-semibold text-slate-800 dark:text-zinc-100">
           +<CountUp to={percentage} margin="-100px" delay={0.3} />%
         </div>
       </MotionDiv>

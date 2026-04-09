@@ -4,7 +4,7 @@ import { Typography } from "@/app/ui/Elements"
 import { Icon } from "../Icon"
 import { Link } from "@/app/utils/Link"
 import { ZeroUICarousel } from "../Carousel/Carousel"
-import { STATIC_PROJECTS } from "@/app/(site)/projects/ProjectsStatic"
+import { ALL_PROJECTS } from "@/app/data/projects"
 import { SITE_SLUGS } from "@/config/siteConfig"
 
 export const MoreProjectsSection = () => {
@@ -23,18 +23,13 @@ export const MoreProjectsSection = () => {
             </Typography>
           </div>
         </div>
-        {STATIC_PROJECTS.map((project) => {
-          // Since Card now handles its own links (buttons), we typically don't need a wrapper 
-          // if we only rely on the buttons. However, if there are layout constraints requiring a wrapper
-          // we can use a div. 
-          // The Card component in MoreProjectsSection.tsx is currently being used inside a specific layout context.
-
+        {ALL_PROJECTS.map((project) => {
           return (
             <div key={project.id} className="h-full w-full">
               <Card
-                src={project.src}
+                src={project.image}
                 alt={project.alt}
-                liveUrl={project.href}
+                liveUrl={project.liveUrl}
                 githubUrl={project.githubUrl}
                 title={project.title}
                 detailUrl={`${SITE_SLUGS.projects}/${project.id}`}

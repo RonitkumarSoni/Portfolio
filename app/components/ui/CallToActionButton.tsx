@@ -1,5 +1,5 @@
 import Image from "next/image"
-import profilePhoto from "@/app/images/mahir.jpeg"
+
 import clsx from "clsx"
 import type { Variants } from "motion"
 import { MotionButton, MotionDiv } from "@/app/utils/lazy-ui"
@@ -60,19 +60,19 @@ export const CallToActionButton = () => {
   }
 
   return (
-    <a href={SITE_NAP.profiles.github} target="_blank" rel="noopener" aria-label="Mahir Patel's GitHub">
+    <a href={SITE_NAP.profiles.github} target="_blank" rel="noopener" aria-label="Ronit Soni's GitHub">
       <MotionButton
         initial="initial"
         animate="animate"
         whileHover="hover"
         variants={buttonVariants}
-        className="group bubble-hover-cta active relative z-1 inline-flex w-max items-center gap-2 rounded-full bg-black px-3 py-2.5 text-base font-medium tracking-tight text-white shadow-xl shadow-black/20"
+        className="group bubble-hover-cta active relative z-1 inline-flex w-full items-center justify-center gap-1 md:w-max md:gap-2 rounded-full bg-black dark:bg-zinc-800 px-1 py-1 h-[28px] md:h-auto md:px-3 md:py-2.5 text-[9px] md:text-base font-medium tracking-tight text-white shadow-xl shadow-black/20 dark:shadow-white/5"
       >
         <div className="pointer-events-none absolute inset-0.5 -z-1 rounded-full [background-image:url('/assets/framer-noise.png')] [background-size:164px] bg-repeat opacity-12" />
         <div className="relative flex items-center gap-1">
           {/* Avatar */}
-          <div className="relative h-7 w-7 rounded-full">
-            <Image src={profilePhoto} alt="Profile photo of the founder" fill sizes="50px" className="rounded-full object-cover ring-2 ring-white/75" />
+          <div className="relative h-4 w-4 md:h-7 md:w-7 overflow-hidden rounded-full">
+            <Image src="https://github.com/RonitkumarSoni.png" alt="Ronit Soni" fill sizes="50px" className="rounded-full object-cover ring-1 md:ring-2 ring-white/75" />
           </div>
 
           {/* + You entrance */}

@@ -27,7 +27,7 @@ export function LazySplashCursor() {
     return () => clearTimeout(delayTimer)
   }, [hasFinePointer, reduceMotion, cursorMoved])
 
-  return cursorMoved ? <SplashCursor /> : null
+  return cursorMoved ? <SplashCursor PRESSURE_ITERATIONS={14} CURL={2} /> : null
 }
 
 export const TiltedWrapper = /*#__PURE__*/ dynamic(() => import("../ui/TiltedWrapper").then((m) => m.TiltedWrapper), {
