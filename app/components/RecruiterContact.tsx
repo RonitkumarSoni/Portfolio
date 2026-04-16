@@ -32,13 +32,12 @@ export const RecruiterContact: React.FC = () => {
           <div className="flex flex-col items-center gap-4 max-lg:items-center">
             <H3 className="text-center font-normal tracking-tight dark:text-white">
               <span>
-                Building Something Amazing? <br />
+                Ready to transform your vision? <br />
               </span>
-              <span className="text-slate-500 dark:text-[#A1A1A6]">Let&apos;s chat.</span>
+              <span className="text-slate-500 dark:text-[#A1A1A6]">Let&apos;s build it together.</span>
             </H3>
             <Text className="max-w-2xl text-center text-balance text-slate-600 dark:text-[#A1A1A6]">
-              I build fast, accessible web apps with React, Next.js, and TypeScript. I&apos;m looking for teams that value product quality, performance, and
-              thoughtful UX.
+              I develop high-performance, accessible web applications using the modern stack. If you&apos;re looking for a developer who values speed, security, and state-of-the-art UI, let&apos;s connect.
             </Text>
           </div>
 

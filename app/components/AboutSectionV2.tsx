@@ -39,20 +39,21 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
           {/* ---------------- right column ---------------- */}
           <Typography as="article" size="lg" className="flex-1 space-y-2 md:space-y-8 text-slate-500 dark:text-[#A1A1A6] text-[10.5px] md:text-lg leading-tight md:leading-6">
             <p>
-              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">I build things for the web.</strong> I&apos;m a Full Stack Developer with hands-on experience in
+              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">Engineering premium web experiences.</strong> I&apos;m a Full Stack Developer specializing in the 
               {" "}
               <a href="https://github.com/RonitkumarSoni" target="_blank" rel="noopener" className="dark:text-white dark:hover:text-gray-300 transition-colors">
-                React.js, Node.js, and the MERN stack
+                MERN stack and Next.js
               </a>
-              . My focus is on writing clean, maintainable code.
+              . My mission is to build digital products that are not just functional, but exceptionally fast and scalable.
             </p>
 
             <p>
-              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">I&apos;m actively expanding into AI.</strong>{" "}
-              Currently learning how to integrate Large Language Models (LLMs) into web applications.
+              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">At the forefront of AI integration.</strong>{" "}
+              I am dedicated to bridging the gap between traditional web development and AI, integrating Large Language Models (LLMs) to create smarter, adaptive user experiences.
             </p>
             <p>
-              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">Beyond front-end, I have a curiosity for Cybersecurity</strong> — how systems can be protected and web apps hardened against attacks.
+              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">Focusing on Performance & Security.</strong>{" "}
+              Beyond UI/UX, I deep-dive into cybersecurity and backend optimization, ensuring every application I build is as secure as it is performant.
             </p>
           </Typography>
         </div>
