@@ -3,15 +3,14 @@ import { WorkHero } from "./WorkHero"
 import { ProjectsStatic } from "./ProjectsStatic"
 import { RecruiterContact } from "@/app/components/RecruiterContact"
 import { Metadata } from "next"
-import { SITE_SLUGS } from "@/config/siteConfig"
+import { SITE_SLUGS, DOMAIN_URL } from "@/config/siteConfig"
 import { projectsGraph } from "@/config/schemas"
 
 export const metadata: Metadata = {
-  title: "Ronit Soni - Projects & Case Studies",
-  description: "Featured work by Ronit Soni: production Next.js + TypeScript systems, React Zero-UI, and selected client builds. Outcomes, scope, and links.",
-  keywords: ["Ronit Soni", "Projects", "Case Studies", "React Zero-UI", "Next.js", "React", "TypeScript", "India"],
+  title: "Projects & Case Studies | Ronit Soni",
+  description: "Explore featured projects and case studies by Ronit Soni, specializing in Next.js, AI integration, and scalable web solutions.",
   alternates: {
-    canonical: SITE_SLUGS.projects,
+    canonical: `${DOMAIN_URL}/projects`,
   },
 }
 const page = () => {

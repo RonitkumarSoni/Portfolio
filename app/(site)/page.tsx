@@ -5,14 +5,17 @@ import { ServicesSectionV2 } from "../components/ServicesSectionV2"
 import { RecruiterContact } from "../components/RecruiterContact"
 import { AchievementsSection } from "../components/AchievementsSection"
 import { Metadata } from "next"
-import { SITE_CONFIG, SITE_SLUGS } from "@/config/siteConfig"
+import { SITE_CONFIG, SITE_SLUGS, DOMAIN_URL } from "@/config/siteConfig"
 import { homeGraph } from "@/config/schemas"
 import Script from "next/script"
 
 export const metadata: Metadata = {
   title: SITE_CONFIG.title,
-  description:
-    "Explore the web developer portfolio of Ronit Soni, a full-stack engineer building fast, modern web applications. See projects in React, Next.js, and the MERN stack.",
+  description: SITE_CONFIG.description,
+  keywords: [...SITE_CONFIG.keywords],
+  alternates: {
+    canonical: DOMAIN_URL,
+  },
 }
 
 const PortfolioPage: React.FC = () => {

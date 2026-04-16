@@ -50,9 +50,8 @@ export const metadata: Metadata = {
   },
   keywords: [...SITE_CONFIG.keywords],
   verification: {
-    google: "google-site-verification-code", // Replace with your code
+    google: "YOUR_GOOGLE_VERIFICATION_CODE", // Replace this with your actual code
     yandex: "yandex-verification-code",
-    me: "your-personal-verification-code",
   },
   openGraph: {
     title: SITE_CONFIG.title,
@@ -64,7 +63,7 @@ export const metadata: Metadata = {
         url: SITE_CONFIG.ogImage,
         width: 1200,
         height: 630,
-        alt: (SITE_CONFIG as any).ogImageAlt || SITE_CONFIG.title,
+        alt: SITE_CONFIG.ogImageAlt,
       },
     ],
     locale: "en_US",
@@ -75,12 +74,14 @@ export const metadata: Metadata = {
     title: SITE_CONFIG.title,
     description: SITE_CONFIG.description,
     images: [SITE_CONFIG.ogImage],
-    creator: "@mahirpatel", // Recommended to add if available
-    site: "@mahirpatel",
+    creator: "@RonitXSoni",
+    site: "@RonitXSoni",
   },
   alternates: {
     canonical: DOMAIN_URL,
   },
+  manifest: "/manifest.json",
+  category: "technology",
 }
 import { SmoothScrollProvider } from "./components/providers/SmoothScrollProvider"
 

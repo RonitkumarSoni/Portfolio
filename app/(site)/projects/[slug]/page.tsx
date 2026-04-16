@@ -9,6 +9,7 @@ import {
 import { notFound } from "next/navigation"
 import { Metadata } from "next"
 import { buildProjectGraphMinimal } from "@/config/schemas"
+import { DOMAIN_URL } from "@/config/siteConfig"
 import Script from "next/script"
 
 // Map slugs to project data
@@ -44,12 +45,29 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         : `${project.hero.client} Project`
 
     return {
-        title: `Ronit Soni - ${titleString}`,
+        title: `${titleString} | Ronit Soni`,
         description: typeof project.hero.description === 'string'
             ? project.hero.description
             : `Details about the ${project.hero.client} project.`,
         alternates: {
-            canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://mahir-patel.tech'}/projects/${project.slug}`,
+            canonical: `${DOMAIN_URL}/projects/${project.slug}`,
+        },
+        openGraph: {
+            title: `${titleString} | Ronit Soni`,
+            description: typeof project.hero.description === 'string'
+                ? project.hero.description
+                : `Details about the ${project.hero.client} project.`,
+            url: `${DOMAIN_URL}/projects/${project.slug}`,
+            images: project.projectImage ? [{ url: project.projectImage as any }] : [],
+            type: "article",
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: `${titleString} | Ronit Soni`,
+            description: typeof project.hero.description === 'string'
+                ? project.hero.description
+                : `Details about the ${project.hero.client} project.`,
+            images: project.projectImage ? [project.projectImage as any] : [],
         }
     }
 }

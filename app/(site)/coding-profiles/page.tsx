@@ -1,11 +1,15 @@
 import { Metadata } from "next"
+import { DOMAIN_URL } from "@/config/siteConfig"
 import { GitHubStats } from "@/app/components/CodingProfile/GitHubStats"
 import { LeetCodeStats } from "@/app/components/CodingProfile/LeetCodeStats"
 import { AnimatedH1 } from "@/app/components/ui/AnimatedH1"
 
 export const metadata: Metadata = {
-    title: "Ronit Soni - Coding Profiles | GitHub & LeetCode Stats",
+    title: "Coding Profiles | Ronit Soni",
     description: "Explore Ronit Soni's coding stats, open-source contributions on GitHub, and problem-solving progress on LeetCode.",
+    alternates: {
+        canonical: `${DOMAIN_URL}/coding-profiles`,
+    },
 }
 
 export default function CodingProfilesPage() {

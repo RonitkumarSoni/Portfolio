@@ -1,30 +1,20 @@
-export const DOMAIN_URL = "https://github.com/RonitkumarSoni"
+export const DOMAIN_URL = "https://ronitsoni.vercel.app"
 
 export const SITE_CONFIG = {
-  title: "Ronit Soni | Full Stack Developer (MERN + AI)",
-  description: "Ronit Soni is a Full Stack Developer specializing in the MERN stack, React.js, and AI/LLM development. Explore my portfolio of web projects and open source work.",
+  title: "Ronit Soni | Senior Full Stack Developer & AI Specialist",
+  description: "Senior Full Stack Developer specializing in Next.js, AI/LLM integration, and modern web architectures. Explore Ronit Soni's portfolio for premium UI/UX and scalable solutions.",
   url: DOMAIN_URL,
   siteName: "Ronit Soni",
   keywords: [
     "Ronit Soni",
     "RonitkumarSoni",
-    "Ronit Soni Portfolio",
-    "Ronit Soni Developer",
-    "Full-Stack Developer Gujarat",
-    "MERN Stack Developer",
-    "JavaScript Developer",
-    "React.js Specialist",
-    "Cybersecurity Enthusiast",
-    "Open Source Contributor",
+    "Full Stack Developer",
+    "MERN Stack",
+    "Next.js Expert",
+    "AI Engineer",
     "Software Engineer India",
-    "Frontend Engineer",
-    "developer",
-    "portfolio",
-    "Backend Developer",
-    "Full-Stack Developer",
-    "Web Developer",
-    "AI Developer",
-    "LLM"
+    "React.js Specialist",
+    "Web Developer Gujarat",
   ],
   ogImage: "https://avatars.githubusercontent.com/u/224968961?v=4",
   ogImageAlt: "Ronit Soni - Full Stack Developer Portfolio",
@@ -36,7 +26,7 @@ export const SITE_CONFIG = {
 
 export const SITE_NAP = {
   name: "Ronit Soni",
-  googleBusinessType: "LocalBusiness" as const,
+  googleBusinessType: "ProfessionalService" as const,
   contact: "Ronit Soni",
   contactTitle: "Full Stack Developer",
   email: "ronitkumarsoni.cg@gmail.com",
@@ -46,19 +36,17 @@ export const SITE_NAP = {
   street: "",
   city: "Kalol",
   state: "Gujarat", 
-  zipCode: "",
-  openingHours: [{ days: "Mon - Sat", hours: "9am - 6pm" }] as const,
+  zipCode: "382721",
+  openingHours: [{ days: "Mon - Sat", hours: "9am - 8pm" }] as const,
   googleReviewLink: "",
   profiles: {
     linkedIn: "https://www.linkedin.com/in/ronit-sonii/",
-    yelp: "",
-    pinterest: "",
-    gbp: "",
     github: "https://github.com/RonitkumarSoni",
     leetcode: "https://leetcode.com/u/ronitkumarsoni/",
+    twitter: "https://x.com/RonitXSoni",
   } as const,
   logo: "https://avatars.githubusercontent.com/u/224968961?v=4",
-  favicon: "/favicon.svg",
+  favicon: "/favicon.ico",
   images: ["https://avatars.githubusercontent.com/u/224968961?v=4"],
 } as const
 

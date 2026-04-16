@@ -65,7 +65,7 @@ export function buildProjectGraphMinimal(slug: string, pd: ProjectData, type = "
         ...(pd.hero.link ? { sameAs: [pd.hero.link] } : {}),
         mainEntityOfPage: id,
         isPartOf: { "@id": `${SITE}${SITE_SLUGS.projects}#page` },
-        author: { "@id": `${SITE}/#mahir-patel` },
+        author: { "@id": `${SITE}/#ronit-soni` },
         publisher: { "@id": `${SITE}#org` },
         inLanguage: "en",
       },
@@ -102,7 +102,7 @@ export const projectsGraph: Graph = {
       "@type": "CollectionPage",
       "@id": `${SITE}${SITE_SLUGS.projects}#page`,
       url: `${SITE}${SITE_SLUGS.projects}`,
-      name: "Projects - Mahir Patel",
+      name: `Projects - ${SITE_CONFIG.siteName}`,
       isPartOf: { "@id": `${SITE}#website` },
       mainEntity: { "@id": `${SITE}${SITE_SLUGS.projects}#list` }, // <-- REFERENCES ABOVE
       mainEntityOfPage: `${SITE}${SITE_SLUGS.projects}`,
@@ -152,7 +152,7 @@ export const siteGraph = {
     {
       "@type": "Organization",
       "@id": `${SITE}#org`,
-      name: "Mahir Patel",
+      name: SITE_CONFIG.siteName,
       url: SITE,
       logo: { "@id": `${SITE}#logo` },
       sameAs: Object.values(SITE_NAP.profiles),
@@ -168,10 +168,10 @@ export const siteGraph = {
     },
     {
       "@type": "Person",
-      "@id": `${SITE}/#mahir-patel`,
-      "name": "Mahir Patel",
+      "@id": `${SITE}/#ronit-soni`,
+      "name": "Ronit Soni",
       "url": SITE,
-      "jobTitle": "Full-Stack Engineer",
+      "jobTitle": "Senior Full-Stack Engineer",
       "image": { "@id": `${SITE}#headshot` },
       "worksFor": { "@id": `${SITE}#org` },
       "sameAs": Object.values(SITE_NAP.profiles).filter((url) => !!url),
@@ -184,19 +184,19 @@ export const siteGraph = {
         "MongoDB",
         "JavaScript",
         "TypeScript",
-        "C++",
+        "AI/LLM Integration",
         "REST APIs",
         "UI/UX Design",
         "System Design",
         "Scalable Web Applications"
       ],
-      "description": "Mahir Patel is a Full-Stack Developer specializing in the MERN stack and Next.js, building modern and scalable web applications."
+      "description": "Ronit Soni is a Senior Full-Stack Developer specializing in Next.js and AI integration, building modern, high-performance web applications."
     },
     {
       "@type": "WebSite",
       "@id": `${SITE}#website`,
       url: SITE,
-      name: "Mahir Patel - Developer Portfolio",
+      name: SITE_CONFIG.title,
       publisher: { "@id": `${SITE}#org` },
       inLanguage: "en",
     },

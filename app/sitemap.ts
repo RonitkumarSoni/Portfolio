@@ -15,15 +15,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Filter out routes that contain hash symbols (scroll links)
   const allRoutes = flatSlugs.filter((route) => typeof route === "string" && !route.includes("#"))
 
-  // Add project routes
+  // Add project routes dynamically if possible, or keep the current list if specific
   const projectRoutes = [apihub, numble, slippyClone, dayflow].map(p => `/projects/${p.slug}`)
 
   const uniqueRoutes = Array.from(new Set([...allRoutes, ...projectRoutes]))
 
-  return uniqueRoutes.map((url) => ({
-    url: DOMAIN_URL + url,
-    lastModified: new Date().toISOString(),
-    priority: url === "/" ? 1.0 : 0.8,
-    changeFrequency: url === "/" ? "daily" : "weekly",
-  }))
+  return uniqueRoutes.map((url) => {
+    const isHome = url === "/"
+    const isProject = url.startsWith("/projects/")
+
+    return {
+      url: `${DOMAIN_URL}${url}`,
+      lastModified: new Date().toISOString(),
+      priority: isHome ? 1.0 : isProject ? 0.9 : 0.7,
+      changeFrequency: isHome ? "daily" : isProject ? "weekly" : "monthly",
+    }
+  })
 }
