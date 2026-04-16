@@ -5,3 +5,37 @@
 [00:52:27.292] Server  LOG      ✓ Compiled in 4s
 [00:52:44.740] Server  LOG      ✓ Compiled in 3.9s
 [00:52:59.710] Server  LOG      ✓ Compiled in 4.4s
+[01:00:36.274] Server  ERROR    ⨯ ./app/(site)/page.tsx:11:1
+Module not found: Can't resolve '../components/DynamicSectionTitle'
+   9 | import { homeGraph } from "@/config/schemas"
+  10 | import Script from "next/script"
+> 11 | import { DynamicSectionTitle } from "../components/DynamicSectionTitle"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata: Metadata = {
+  14 |   title: SITE_CONFIG.title,
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:00:36.280] Server  ERROR    ⨯ ./app/(site)/page.tsx:11:1
+Module not found: Can't resolve '../components/DynamicSectionTitle'
+   9 | import { homeGraph } from "@/config/schemas"
+  10 | import Script from "next/script"
+> 11 | import { DynamicSectionTitle } from "../components/DynamicSectionTitle"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata: Metadata = {
+  14 |   title: SITE_CONFIG.title,
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:00:53.045] Server  LOG      ✓ Compiled in 4.3s
+[01:01:10.085] Server  LOG      ✓ Compiled in 8.8s
+[01:01:24.713] Server  LOG      ✓ Compiled in 8.6s
+[01:01:33.924] Server  LOG      ✓ Compiled in 7.3s

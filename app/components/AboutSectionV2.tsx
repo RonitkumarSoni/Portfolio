@@ -37,23 +37,29 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
             </MotionDiv>
           </div>
           {/* ---------------- right column ---------------- */}
-          <Typography as="article" size="lg" className="flex-1 space-y-2 md:space-y-8 text-slate-500 dark:text-[#A1A1A6] text-[10.5px] md:text-lg leading-tight md:leading-6">
+          <Typography as="article" size="lg" className="flex-1 space-y-4 md:space-y-8 text-slate-500 dark:text-[#A1A1A6] text-[10.5px] md:text-lg leading-relaxed md:leading-7">
             <p>
-              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">Engineering premium web experiences.</strong> I&apos;m a Full Stack Developer specializing in the 
+              <strong className="font-semibold text-slate-900 dark:text-white block mb-1 md:inline text-sm md:text-xl">Crafting Scalable Digital Ecosystems.</strong><br className="md:hidden" /> 
+              As a dedicated Full Stack Developer with a deep specialization in the 
               {" "}
-              <a href="https://github.com/RonitkumarSoni" target="_blank" rel="noopener" className="dark:text-white dark:hover:text-gray-300 transition-colors">
-                MERN stack and Next.js
+              <a href="https://github.com/RonitkumarSoni" target="_blank" rel="noopener" className="font-medium text-slate-800 dark:text-white dark:hover:text-gray-300 underline decoration-indigo-500/30 underline-offset-4 transition-all">
+                MERN Stack and Next.js ecosystem
               </a>
-              . My mission is to build digital products that are not just functional, but exceptionally fast and scalable.
+              , I don't just write code—I engineer solutions. My approach combines robust architectural planning with pixel-perfect frontend execution, ensuring that every application is high-performing, accessible, and ready to scale from day one.
             </p>
 
             <p>
-              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">At the forefront of AI integration.</strong>{" "}
-              I am dedicated to bridging the gap between traditional web development and AI, integrating Large Language Models (LLMs) to create smarter, adaptive user experiences.
+              <strong className="font-semibold text-slate-900 dark:text-white block mb-1 md:inline text-sm md:text-xl">AI-Driven Engineering & Future-Ready Tech.</strong><br className="md:hidden" />
+              The landscape of web development is evolving, and I am actively at the forefront of this shift. I specialize in integrating Large Language Models (LLMs) and Generative AI into traditional web architectures, transforming static applications into intelligent, adaptive environments that solve real-world problems with unparalleled efficiency.
             </p>
+
             <p>
-              <strong className="font-semibold text-slate-900 dark:text-white block mb-0.5 md:inline">Focusing on Performance & Security.</strong>{" "}
-              Beyond UI/UX, I deep-dive into cybersecurity and backend optimization, ensuring every application I build is as secure as it is performant.
+              <strong className="font-semibold text-slate-900 dark:text-white block mb-1 md:inline text-sm md:text-xl">A Holistic Approach to Security & Performance.</strong><br className="md:hidden" />
+              My technical curiosity extends beyond the browser. I have a profound interest in Cybersecurity, focusing on building hardened web applications that prioritize user data integrity. By combining these security principles with advanced backend optimization and modern dev-ops practices, I deliver professional-grade software that stands the test of time and traffic.
+            </p>
+
+            <p className="text-sm md:text-base italic italic-text opacity-80">
+              Based in Kalol, Gujarat, I am continually exploring the frontiers of technology, contributing to open-source projects, and collaborating with visionary teams to build the next generation of the web.
             </p>
           </Typography>
         </div>

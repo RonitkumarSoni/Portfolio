@@ -8,7 +8,6 @@ import { Metadata } from "next"
 import { SITE_CONFIG, SITE_SLUGS, DOMAIN_URL } from "@/config/siteConfig"
 import { homeGraph } from "@/config/schemas"
 import Script from "next/script"
-import { DynamicSectionTitle } from "../components/DynamicSectionTitle"
 
 export const metadata: Metadata = {
   title: SITE_CONFIG.title,
@@ -36,7 +35,6 @@ const PortfolioPage: React.FC = () => {
       <AboutSectionV2 />
       <ServicesSectionV2 />
       <RecruiterContact />
-      <DynamicSectionTitle />
       {/* <FAQSection /> */}
     </main>
   )

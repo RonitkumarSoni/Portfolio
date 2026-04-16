@@ -2,7 +2,7 @@ export const DOMAIN_URL = "https://ronitsoni.vercel.app"
 
 export const SITE_CONFIG = {
   title: "Ronit Soni | Senior Full Stack Developer & AI Specialist",
-  description: "Senior Full-Stack Engineer specializing in high-performance Next.js apps and AI-integrated solutions. Ronit Soni transforms complex requirements into scalable, pixel-perfect web experiences that drive results.",
+  description: "Senior Full Stack Developer specializing in Next.js, AI/LLM integration, and modern web architectures. Explore Ronit Soni's portfolio for premium UI/UX and scalable solutions.",
   url: DOMAIN_URL,
   siteName: "Ronit Soni",
   keywords: [
