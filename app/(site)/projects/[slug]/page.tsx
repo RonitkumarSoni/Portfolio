@@ -44,6 +44,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         ? project.hero.title
         : `${project.hero.client} Project`
 
+    const projectImageUrl = typeof project.projectImage === 'string' 
+        ? project.projectImage 
+        : (project.projectImage as any)?.src
+
     return {
         title: `${titleString} | Ronit Soni`,
         description: typeof project.hero.description === 'string'
@@ -58,7 +62,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
                 ? project.hero.description
                 : `Details about the ${project.hero.client} project.`,
             url: `${DOMAIN_URL}/projects/${project.slug}`,
-            images: project.projectImage ? [{ url: project.projectImage as any }] : [],
+            images: projectImageUrl ? [{ url: projectImageUrl }] : [],
             type: "article",
         },
         twitter: {
@@ -67,7 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             description: typeof project.hero.description === 'string'
                 ? project.hero.description
                 : `Details about the ${project.hero.client} project.`,
-            images: project.projectImage ? [project.projectImage as any] : [],
+            images: projectImageUrl ? [projectImageUrl] : [],
         }
     }
 }
