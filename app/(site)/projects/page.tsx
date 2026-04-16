@@ -7,8 +7,8 @@ import { SITE_SLUGS, DOMAIN_URL } from "@/config/siteConfig"
 import { projectsGraph } from "@/config/schemas"
 
 export const metadata: Metadata = {
-  title: "Projects & Case Studies | Ronit Soni",
-  description: "Explore featured projects and case studies by Ronit Soni, specializing in Next.js, AI integration, and scalable web solutions.",
+  title: "Featured Projects | Ronit Soni",
+  description: "Explore featured engineering projects by Ronit Soni, specializing in Next.js, AI integration, and scalable web solutions.",
   alternates: {
     canonical: `${DOMAIN_URL}/projects`,
   },
