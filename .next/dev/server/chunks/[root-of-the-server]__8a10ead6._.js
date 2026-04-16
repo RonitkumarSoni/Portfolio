@@ -58,32 +58,22 @@ __turbopack_context__.s([
     "externalLinks",
     ()=>externalLinks
 ]);
-const DOMAIN_URL = "https://github.com/RonitkumarSoni";
+const DOMAIN_URL = "https://ronitsoni.vercel.app";
 const SITE_CONFIG = {
-    title: "Ronit Soni | Full Stack Developer (MERN + AI)",
-    description: "Ronit Soni is a Full Stack Developer specializing in the MERN stack, React.js, and AI/LLM development. Explore my portfolio of web projects and open source work.",
+    title: "Ronit Soni | Senior Full Stack Developer & AI Specialist",
+    description: "Senior Full-Stack Engineer specializing in high-performance Next.js apps and AI-integrated solutions. Ronit Soni transforms complex requirements into scalable, pixel-perfect web experiences that drive results.",
     url: DOMAIN_URL,
     siteName: "Ronit Soni",
     keywords: [
         "Ronit Soni",
         "RonitkumarSoni",
-        "Ronit Soni Portfolio",
-        "Ronit Soni Developer",
-        "Full-Stack Developer Gujarat",
-        "MERN Stack Developer",
-        "JavaScript Developer",
-        "React.js Specialist",
-        "Cybersecurity Enthusiast",
-        "Open Source Contributor",
+        "Full Stack Developer",
+        "MERN Stack",
+        "Next.js Expert",
+        "AI Engineer",
         "Software Engineer India",
-        "Frontend Engineer",
-        "developer",
-        "portfolio",
-        "Backend Developer",
-        "Full-Stack Developer",
-        "Web Developer",
-        "AI Developer",
-        "LLM"
+        "React.js Specialist",
+        "Web Developer Gujarat"
     ],
     ogImage: "https://avatars.githubusercontent.com/u/224968961?v=4",
     ogImageAlt: "Ronit Soni - Full Stack Developer Portfolio",
@@ -99,7 +89,7 @@ const SITE_CONFIG = {
 };
 const SITE_NAP = {
     name: "Ronit Soni",
-    googleBusinessType: "LocalBusiness",
+    googleBusinessType: "ProfessionalService",
     contact: "Ronit Soni",
     contactTitle: "Full Stack Developer",
     email: "ronitkumarsoni.cg@gmail.com",
@@ -109,24 +99,22 @@ const SITE_NAP = {
     street: "",
     city: "Kalol",
     state: "Gujarat",
-    zipCode: "",
+    zipCode: "382721",
     openingHours: [
         {
             days: "Mon - Sat",
-            hours: "9am - 6pm"
+            hours: "9am - 8pm"
         }
     ],
     googleReviewLink: "",
     profiles: {
         linkedIn: "https://www.linkedin.com/in/ronit-sonii/",
-        yelp: "",
-        pinterest: "",
-        gbp: "",
         github: "https://github.com/RonitkumarSoni",
-        leetcode: "https://leetcode.com/u/ronitkumarsoni/"
+        leetcode: "https://leetcode.com/u/ronitkumarsoni/",
+        twitter: "https://x.com/RonitXSoni"
     },
     logo: "https://avatars.githubusercontent.com/u/224968961?v=4",
-    favicon: "/favicon.svg",
+    favicon: "/favicon.ico",
     images: [
         "https://avatars.githubusercontent.com/u/224968961?v=4"
     ]

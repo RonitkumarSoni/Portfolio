@@ -1,4 +1,6 @@
 User-Agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_next/
 
-Sitemap: https://github.com/RonitkumarSoni/sitemap.xml
+Sitemap: https://ronitsoni.vercel.app/sitemap.xml
